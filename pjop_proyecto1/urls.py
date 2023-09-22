@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+from app2 import views as v2
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('app2Vista1',v2.app2Vista1),
+    path('app2Vista2',v2.app2Vista2),
 ]
