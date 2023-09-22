@@ -11,4 +11,4 @@ def app1Vista2(request):
     html="""
     <h2 style="color:green">Hola mundo 2 desde app1</h2>
     """
-    return Http Response(html)
+    return HttpResponse(html)
